@@ -216,7 +216,7 @@ class Enhancer(nn.Module):
         self.conv1030 = nn.Conv2d(20, 1, kernel_size=1, stride=1, padding=0)  
         self.conv1040 = nn.Conv2d(20, 1, kernel_size=1, stride=1, padding=0)  
 
-        self.refine3 = nn.Conv2d(20 + 4, out_channels, kernel_size=3, stride=1, padding=1) # 进行concatenate
+        self.refine3 = nn.Conv2d(20 + 4, out_channels, kernel_size=3, stride=1, padding=1)
         self.upsample = F.upsample_nearest
 
         self.batch1 = nn.InstanceNorm2d(100, affine=True)
@@ -274,7 +274,6 @@ class Dehaze(nn.Module):
         x_mid = self.mid_conv(x)
         
         x = self.up_block1(x_mid)
-        
         x = self.attention1(x) 
         
         x = torch.cat((x, x_layer2), 1)
@@ -282,7 +281,6 @@ class Dehaze(nn.Module):
         x = self.attention2(x) 
         
         x = torch.cat((x, x_layer1), 1)
-        
         x = self.up_block1(x) 
         x = self.up_block1(x)
         
@@ -290,7 +288,3 @@ class Dehaze(nn.Module):
         out = self.tail(x)
 
         return out, x_mid
-
-
-
-
