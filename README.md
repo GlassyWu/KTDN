@@ -16,3 +16,8 @@ python test.py
 ### Pretrained model
 
 https://pan.baidu.com/s/12H_3d6g3kKurnO0mXnjo3g  password: ed86
+
+###  Another solution of our team: 
+
+[**1st** Solution: Trident Dehazing Network](https://github.com/lj1995-computer-vision/Trident-Dehazing-Network )
+
