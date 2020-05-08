@@ -1,6 +1,8 @@
 # KTDN
 NTIRE 2020 NonHomogeneous Dehazing Challenge (CVPR Workshop 2020)  **2nd** Solution.
 
+[[report]]( https://arxiv.org/pdf/2005.03457.pdf )
+
 ### Dependencies and Installation：
 
 - Python 3.7
