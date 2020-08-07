@@ -1,5 +1,5 @@
 # KTDN
-NTIRE 2020 NonHomogeneous Dehazing Challenge (CVPR Workshop 2020)  **Winner Award ** Solution.
+NTIRE 2020 NonHomogeneous Dehazing Challenge (CVPR Workshop 2020)  **Winner Award** Solution.
 
 [[report]]( https://arxiv.org/pdf/2005.03457.pdf ) [[paper]](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Wu_Knowledge_Transfer_Dehazing_Network_for_NonHomogeneous_Dehazing_CVPRW_2020_paper.pdf)[[certificates]]( https://data.vision.ee.ethz.ch/cvl/ntire20/NTIRE2020_award_certificates.pdf )
 
